@@ -1,0 +1,309 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background: url("https://image.jimcdn.com/app/cms/image/transf/none/path/s8c0981c2541d7d5c/backgroundarea/if2c3e6b37c1a480f/version/1482535704/image.jpg") no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  margin: 0px;
+  padding: 0px;
+}
+
+/*Haut de page logo */
+
+.logo{
+  text-align: center;
+  margin-top: 20px;
+}
+
+/*Menu de Navigation*/
+
+.nav{
+  font-family: 'Oswald', sans-serif;
+  position: sticky;
+  top: 0px;
+}
+
+nav ul{
+  list-style-type: none; /*supression des puces*/
+  margin-left: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #031957;
+}
+
+nav ul li a{
+  text-decoration: none;
+  text-align: center;
+  display: flex;
+  float:left;
+  padding: 30px 100px;
+  color: white;
+  letter-spacing: 0.05rem;
+}
+
+nav ul li a:hover{
+  color: #05247D;
+  background-color: #D6A30D;
+  transition: 0.3s all;
+}
+
+#logo2{
+  float:right;
+}
+
+#logo2 a{
+  padding:0;
+}
+
+#logo2 img{
+  height: 84px;
+}
+
+#scroll{
+    scroll-margin-top: 0;
+}
+
+/*Extrait mp4*/
+
+.clip{
+  text-align: center;
+  font-size: 200px;
+}
+
+/*Entrez dans l'arène*/
+
+.slogan{
+  font-family: 'Great Vibes', cursive;
+  text-align: center;
+  font-size: 50px;
+  color: gold;
+}
+
+/*Partie 1 : Présentation du jeu*/
+
+.content1{
+  column-count: 2;
+  margin:80px;
+  float: left;
+}
+
+.title{
+  color: #D0A90E;
+  margin: 100px;
+  font-size: 30px;
+  font-family: 'Secular One', sans-serif;
+}
+
+.para{
+  color: white;
+  font-weight: bolder;
+  font-size: 25px;
+  font-family: 'Secular One', sans-serif;
+}
+
+/*Partie 2 : Modes de jeu*/
+
+.title2{
+  text-align: center;
+  color: #D0A90E;
+  margin: 100px;
+  font-size: 30px;
+  font-family: 'Secular One', sans-serif;
+}
+
+.content2{
+  column-count: 2;
+  margin: 80px;
+  float: left;
+}
+
+.txt{
+  text-align: center;
+}
+
+/*Partie 3 : Esport*/
+
+.crl{
+  text-align: center;
+}
+
+.subtitle{
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 50px;
+}
+
+.txt-1{
+  text-align: center;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 30px;
+}
+
+.content3{
+  column-count: 3;
+  margin-left: 0px;
+  margin-top: 100px;
+  margin-right: 0px;
+  text-align: center;
+}
+
+.dimension3 img{
+  width : 100px;
+  max-width: 100%;
+	height: auto;
+}
+
+.dimension3-1 img{
+  width : 100px;
+  max-width: 100%;
+	height: auto;
+}
+
+.dimension3-2 img{
+  width : 100px;
+  max-width: 100%;
+	height: auto;
+}
+
+.content3-1{
+  column-count: 3;
+  margin-left: 0px;
+  margin-top: 200px;
+  margin-right: 0px;
+  text-align: center;
+}
+
+.dimension4 img{
+  width : 200px;
+  max-width: 100%;
+	height: auto;
+}
+
+.dimension4-1 img{
+  width : 100px;
+  max-width: 100%;
+	height: auto;
+}
+
+.dimension4-2 img{
+  width : 100px;
+  max-width: 100%;
+	height: auto;
+}
+
+.final-podium{
+  margin-top: 80px;
+  text-align: center;
+}
+
+.qualifiers{
+  margin-top: 80px;
+  text-align: center;
+}
+
+.champion{
+  text-align: center;
+}
+
+.gameplay{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  color: white;
+  text-align: center;
+  font-family: 'Secular One', sans-serif;
+}
+
+iframe{
+  border: none;
+  width: 560px;
+  height: 315px;
+}
+
+/*Partie 4 : Contact*/
+
+.contact{
+  padding-left: 50px;
+  border-radius: 50px;
+  font-size: 10px;
+}
+
+.line{
+  text-align: center;
+  height: auto;
+  width: auto;
+}
+
+.stylecontact{
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 3px;
+}
+
+fieldset{
+  margin-top: 70px;
+  width: 27%;
+  background-color: #031957;
+  box-shadow: 5px 5px 20px 1px 10px rgb(85, 85, 85);
+  border: 0px;
+  padding-left: 10px;
+  border-radius: 10px 10px 10px 10px;
+  color: white
+  height: 430;
+}
+
+td{
+  letter-spacing: 1px;
+}
+
+hr{
+  border: 5px solid white;
+  border-radius: 10px;
+  width: 40%;
+}
+
+ul li{
+  margin-left: 20px; color: white;
+}
+
+#submit{
+  margin: 20px 35px;
+  color: #D0A90E;
+  background-color: white;
+  width: 80%;
+  font-size: 17px;
+  border-radius: 20px;
+  border: 1px solid white;
+  padding: 7px;
+}
+
+#submit:hover{
+  color: white;
+  background-color: gold;
+}
+
+input{
+  font-size: 16px;
+  border: none;
+  outline: none;
+  background: none;
+  border-bottom: 1px solid white;
+  color: white;
+  width: 100%;
+  margin-left: 10px;
+}
+
+/*Pied de Page*/
+
+footer{
+  top: bottom;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+}
